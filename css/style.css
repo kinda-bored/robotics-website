@@ -90,31 +90,33 @@
     margin:0;
   }
   .image1{
-    width: 500px;
-    border-radius: 40%;
+    width: 28vw;
+    border-radius: 100%;
     margin-left: 10px;
     margin-top: 100px;
     
   }
  
   .marquee{
-    position:fixed;
+    position:absolute;
     
     top:140px;
   
     
   }
   .about{
-    position:fixed;
-    left:700px;
-    top:300px;
-    width:1000px;
-    
+    position:absolute;
+    left:40vw;
+    top:20vw;
+    width:40vw;
    
-    font-size: xx-large;
+    overflow: hidden;
+    
+   font-size: 1.5vw;
+     
   }
   .marquee {
-    width: 1920px;
+    width: 100vw;
     overflow: hidden;
     background: black;
     padding: 10px 0;
@@ -124,7 +126,7 @@
   
   .marquee-content {
     display: inline-flex;
-    animation: scroll 9s linear infinite;
+    animation: scroll 12s linear infinite;
     white-space: nowrap;
   }
   
@@ -132,10 +134,10 @@
     color: white;
     font-size: 36px;
     font-weight: bold;
-    padding: 0 50px; /* spacing between repetitions */
+    padding: 0 50px; 
   }
   
-  /* Keyframes for smooth infinite scroll */
+  
   @keyframes scroll {
     0% {
       transform: translateX(0%);
@@ -145,17 +147,17 @@
     }
   }
   .contact-form{
-    padding:10px;
-    width:100px;
+    padding:1vw;
+    width:100vw;
     position:static;
   }
   .form-block{
     padding:1px;
   }
   .metting{
-    left:600px;
-    position: fixed;
-    top:700px;
+    left:40vw;
+    position: absolute;
+    top:35vw;
     font-size: xxx-large;
   }
 .button a{
